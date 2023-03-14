@@ -1,7 +1,7 @@
-# loopback-connector-qadashdb
+# loopback-connector-dashdb
 
 [IBM® DashDB®]() is the database of choice for robust, enterprise-wide solutions handling high-volume workloads.
-It is optimized to deliver industry-leading performance while lowering costs.  The `loopback-connector-qadashdb`
+It is optimized to deliver industry-leading performance while lowering costs.  The `loopback-connector-dashdb`
 module is the LoopBack connector for dashDB.
 
 The LoopBack DashDB connector supports:
@@ -15,7 +15,7 @@ The LoopBack DashDB connector supports:
 Enter the following in the top-level directory of your LoopBack application:
 
 ```
-$ npm install loopback-connector-qadashdb --save
+$ npm install loopback-connector-dashdb --save
 ```
 
 The `--save` option adds the dependency to the application's `package.json` file.
@@ -67,7 +67,7 @@ For example:
 
 ```
 var DataSource = require('loopback-datasource-juggler').DataSource;
-var DASHDB = require('loopback-connector-qadashdb');
+var DASHDB = require('loopback-connector-dashdb');
 
 var config = {
   username: process.env.DASHDB_USERNAME,
@@ -162,7 +162,7 @@ For example : **SCHEMA1_DASHDB_DARWIN_10**.
 Alternatively, let `DASHDB_SCHEMA` be computed for you by setting these values instead:
 
 ```bash
-export PACKAGE_NAME=loopback-connector-qadashdb 
+export PACKAGE_NAME=loopback-connector-dashdb 
 export BUILD_NUMBER={build number}   For example: 1
 export nodeVersion={node version}    For example: 10
 ```
@@ -173,4 +173,4 @@ This pattern of the schema name is important for database **cleanup** and **seed
 
 ### Docker
 - DashDB has a docker image which could be signed up for a trial version and be used for testing. For more information, please visit: [DashDB Docker](https://hub.docker.com/r/dashdb/local/)
-- Once the instance is ready, please follow the above information on how to run tests using your [own instance](https://github.com/loopbackio/loopback-connector-qadashdb/tree/master#own-instance)
+- Once the instance is ready, please follow the above information on how to run tests using your [own instance](https://github.com/loopbackio/loopback-connector-dashdb/tree/master#own-instance)

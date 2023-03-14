@@ -1,5 +1,5 @@
 // Copyright IBM Corp. 2016,2019. All Rights Reserved.
-// Node module: loopback-connector-qadashdb
+// Node module: loopback-connector-dashdb
 // This file is licensed under the Artistic License 2.0.
 // License text available at https://opensource.org/licenses/Artistic-2.0
 
@@ -7,7 +7,7 @@
 
 const g = require('../lib/globalize');
 const DataSource = require('loopback-datasource-juggler').DataSource;
-const DASHDB = require('../'); // loopback-connector-qadashdb
+const DASHDB = require('../'); // loopback-connector-dashdb
 
 const config = {
   username: process.env.DASHDB_USERNAME,

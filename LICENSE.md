@@ -1,5 +1,5 @@
 Copyright (c) IBM Corp. 2015,2017. All Rights Reserved.
-Node module: loopback-connector-qadashdb
+Node module: loopback-connector-dashdb
 This project is licensed under the Artistic License 2.0, full text below.
 
 --------

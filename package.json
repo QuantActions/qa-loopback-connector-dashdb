@@ -1,5 +1,5 @@
 {
-  "name": "loopback-connector-qa-dashdb",
+  "name": "@QuantActions/loopback-connector-dashdb",
   "version": "2.0.9",
   "description": "LoopBack Connector for IBM dashDB",
   "engines": {
@@ -29,7 +29,7 @@
     "async": "^3.1.0",
     "debug": "^4.1.1",
     "loopback-connector": "^4.0.0",
-    "qa-loopback-ibmdb": "^2.6.2",
+    "loopback-ibmdb": "^2.6.2",
     "strong-globalize": "^5.0.0"
   },
   "devDependencies": {
@@ -48,11 +48,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/loopbackio/loopback-connector-qadashdb.git"
+    "url": "git://github.com/loopbackio/loopback-connector-dashdb.git"
   },
-  "homepage": "https://github.com/loopbackio/loopback-connector-qadashdb",
+  "homepage": "https://github.com/loopbackio/loopback-connector-dashdb",
   "bugs": {
-    "url": "https://github.com/loopbackio/loopback-connector-qadashdb/issues"
+    "url": "https://github.com/loopbackio/loopback-connector-dashdb/issues"
   },
   "license": "Artistic-2.0",
   "author": "IBM Corp."
