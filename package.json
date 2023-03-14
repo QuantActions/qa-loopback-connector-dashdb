@@ -1,6 +1,6 @@
 {
   "name": "qa-loopback-connector-dashdb",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "LoopBack Connector for IBM dashDB",
   "engines": {
     "node": ">=8.9"
