@@ -1,5 +1,5 @@
 {
-  "name": "@QuantActions/loopback-connector-dashdb",
+  "name": "@qamberchten/loopback-connector-dashdb",
   "version": "2.0.9",
   "description": "LoopBack Connector for IBM dashDB",
   "engines": {
@@ -29,7 +29,7 @@
     "async": "^3.1.0",
     "debug": "^4.1.1",
     "loopback-connector": "^4.0.0",
-    "loopback-ibmdb": "^2.6.2",
+    "qa-loopback-ibmdb": "^2.6.2",
     "strong-globalize": "^5.0.0"
   },
   "devDependencies": {
