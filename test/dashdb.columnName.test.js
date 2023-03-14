@@ -1,5 +1,5 @@
 // Copyright IBM Corp. 2020. All Rights Reserved.
-// Node module: loopback-connector-dashdb
+// Node module: loopback-connector-qadashdb
 // This file is licensed under the Artistic License 2.0.
 // License text available at https://opensource.org/licenses/Artistic-2.0
 
